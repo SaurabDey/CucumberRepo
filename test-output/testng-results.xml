@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74842" started-at="2017-05-20T20:03:38Z" finished-at="2017-05-20T20:04:53Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="31697" started-at="2017-05-20T20:03:38Z" finished-at="2017-05-20T20:04:10Z">
+      <class name="com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest2">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest2@3567135c]" name="setUpClass" is-config="true" duration-ms="482" started-at="2017-05-21T01:33:38Z" finished-at="2017-05-21T01:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest2@3567135c]" name="feature" duration-ms="31060" started-at="2017-05-21T01:33:39Z" data-provider="features" finished-at="2017-05-21T01:34:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is my second feature file]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest2@3567135c]" name="tearDownClass" is-config="true" duration-ms="18" started-at="2017-05-21T01:34:10Z" finished-at="2017-05-21T01:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest2 -->
+    </test> <!-- Test1 -->
+    <test name="Test0" duration-ms="74842" started-at="2017-05-20T20:03:38Z" finished-at="2017-05-20T20:04:53Z">
+      <class name="com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest1">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest1@79698539]" name="setUpClass" is-config="true" duration-ms="473" started-at="2017-05-21T01:33:38Z" finished-at="2017-05-21T01:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest1@79698539]" name="feature" duration-ms="74185" started-at="2017-05-21T01:33:39Z" data-provider="features" finished-at="2017-05-21T01:34:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[facebook login feature, we will have diffrent username and password to login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest1@79698539]" name="tearDownClass" is-config="true" duration-ms="33" started-at="2017-05-21T01:34:53Z" finished-at="2017-05-21T01:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest1 -->
+    </test> <!-- Test0 -->
+  </suite> <!-- Suite -->
+</testng-results>

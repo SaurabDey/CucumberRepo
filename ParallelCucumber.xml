@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="com.project.Reporting.TestNGExecutionListener"></listener>
+	</listeners>
+	<test name="Test0">
+		<classes>
+			<class
+				name="com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest1" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test1">
+		<classes>
+			<class
+				name="com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest2" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

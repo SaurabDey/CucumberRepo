@@ -1,0 +1,346 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16131004598,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination1.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Second Scenerio---------",
+        "description": "",
+        "id": "facebook-login-feature,-we-will-have-diffrent-username-and-password-to-login;second-scenerio---------",
+        "after": [
+          {
+            "result": {
+              "duration": 1273636998,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination1.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5589950,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have login page of facebook",
+            "match": {
+              "location": "StepDefination1.i_have_login_page_of_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11617142212,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I login using vishakha@com and vishakha1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vishakha@com",
+                  "offset": 14
+                },
+                {
+                  "val": "vishakha1234",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefination1.i_login_using_saurab_and_saurab(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174891,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "My modified fuction",
+            "match": {
+              "location": "StepDefination1.method()"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@vish"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12706916003,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination1.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Second Scenerio---------",
+        "description": "",
+        "id": "facebook-login-feature,-we-will-have-diffrent-username-and-password-to-login;second-scenerio---------",
+        "after": [
+          {
+            "result": {
+              "duration": 818857870,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination1.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39412,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I have login page of facebook",
+            "match": {
+              "location": "StepDefination1.i_have_login_page_of_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7565842024,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I login using sugat@com and sugat1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sugat@com",
+                  "offset": 14
+                },
+                {
+                  "val": "sugat1234",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefination1.i_login_using_saurab_and_saurab(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147795,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "My modified fuction",
+            "match": {
+              "location": "StepDefination1.method()"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@sugat"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8083706791,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination1.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Scenerio outline---------",
+        "description": "",
+        "id": "facebook-login-feature,-we-will-have-diffrent-username-and-password-to-login;scenerio-outline---------;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 897302734,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination1.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46391,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I have login page of facebook",
+            "match": {
+              "location": "StepDefination1.i_have_login_page_of_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3177660728,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I login using akshita and akshita123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "akshita",
+                  "offset": 14
+                },
+                {
+                  "val": "akshita123",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination1.i_login_using_saurab_and_saurab(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@First"
+          },
+          {
+            "line": 18,
+            "name": "@multiple"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8316704163,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination1.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Scenerio outline---------",
+        "description": "",
+        "id": "facebook-login-feature,-we-will-have-diffrent-username-and-password-to-login;scenerio-outline---------;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 767876262,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination1.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41054,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I have login page of facebook",
+            "match": {
+              "location": "StepDefination1.i_have_login_page_of_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2714458904,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I login using amba and amba1233",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amba",
+                  "offset": 14
+                },
+                {
+                  "val": "amba1233",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefination1.i_login_using_saurab_and_saurab(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@First"
+          },
+          {
+            "line": 18,
+            "name": "@multiple"
+          }
+        ]
+      }
+    ],
+    "name": "facebook login feature, we will have diffrent username and password to login",
+    "description": "",
+    "id": "facebook-login-feature,-we-will-have-diffrent-username-and-password-to-login",
+    "keyword": "Feature",
+    "uri": "FirstfeatureFile.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@First"
+      }
+    ]
+  }
+]

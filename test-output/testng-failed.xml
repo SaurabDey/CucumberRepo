@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.project.Reporting.TestNGExecutionListener"/>
+  </listeners>
+  <test name="Test0">
+    <classes>
+      <class name="com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest1"/>
+    </classes>
+  </test> <!-- Test0 -->
+  <test name="Test1">
+    <classes>
+      <class name="com.project.CucumberMaven.RunCukesByFeatureAndCompositionTest2"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Failed suite [Suite] -->
